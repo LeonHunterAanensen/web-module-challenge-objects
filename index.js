@@ -52,7 +52,7 @@ Using the burger object below do the following:
 
 
 const burger = {
-  STdeal: 15.3,
+  STdeal: 13.5,
   public: 16.2,
   name: "Burger", 
   price: 18, 
