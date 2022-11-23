@@ -130,7 +130,8 @@ Use the getReviewByIndex function below to do the following:
 
 function getReviewByIndex(a,i) {
   console.log(`${a[i].name} gave the restaurant a ${a[i].rating} star review, and their feedback was: ${a[i].feedback}`);
-  }
+    return (`${a[i].name} gave the restaurant a ${a[i].rating} star review, and their feedback was: ${a[i].feedback}`);
+}
   getReviewByIndex(reviews,3);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
